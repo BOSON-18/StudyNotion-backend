@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cookieParser());
 //backend frontend ki req entertain kre
 app.use(cors({
-    origin:"https://study-notion-psi-two.vercel.app",//is address se jo bhi request aari hai use entertain krne,
+    origin:"https://study-notion-frontend-liart.vercel.app/",//is address se jo bhi request aari hai use entertain krne,
     credentials:true
 }));
 app.use(fileUpload({
